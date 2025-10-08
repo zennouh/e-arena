@@ -10,8 +10,8 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
   line-height: 1.6;
   color: #e0e0e0;
   background-color: #0a0a0f;
@@ -101,6 +101,50 @@ body {
 .nav-link:focus {
   outline: 2px solid #00f0ff;
   outline-offset: 2px;
+}
+
+/* SPONSERS */
+
+.gallery {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  background-color: #00f0ff;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  height: 170px;
+  width: calc(100% / 5);
+
+  /* margin: 0 10px; */
+}
+.card:hover {
+  border-color: #00f0ff;
+  border-width: 5px;
+  width: calc(100% / 4);
+  transition: all 0.3s ease;
+  /* background-color: transparent; */
+}
+
+.card:hover > span {
+  font-size: 20px;
+  color: black;
+  font-weight: 500;
+  text-align: center;
+}
+
+.card > img {
+  width: 100px;
+  height: 70%;
+  width: auto;
+}
+
+.card > span {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
 }
 
 /* ===== HERO SECTION ===== */
@@ -281,6 +325,7 @@ body {
   font-weight: 700;
   color: #00f0ff;
   margin-bottom: 2rem;
+  margin-top: 2rem;
   text-align: center;
   text-shadow: 0 0 15px rgba(0, 240, 255, 0.3);
 }
@@ -341,7 +386,7 @@ body {
 }
 
 .team-achievements li::before {
-  content: "▸";
+  content: '▸';
   position: absolute;
   left: 0;
   color: #00f0ff;
