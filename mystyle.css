@@ -10,8 +10,8 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    'Helvetica Neue', Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
   line-height: 1.6;
   color: #e0e0e0;
   background-color: #0a0a0f;
@@ -107,6 +107,9 @@ body {
 
 .gallery {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
   gap: 10px;
 }
 
@@ -115,36 +118,59 @@ body {
   color: black;
   display: flex;
   flex-direction: column;
-  height: 170px;
-  width: calc(100% / 5);
+  height: 200px;
+  width: calc(50% - 5px);
 
   /* margin: 0 10px; */
 }
-.card:hover {
-  border-color: #00f0ff;
-  border-width: 5px;
-  width: calc(100% / 4);
-  transition: all 0.3s ease;
-  /* background-color: transparent; */
+
+.card img {
+  width: 100%;
+  height: 150px;
+  background-color: wheat;
 }
 
-.card:hover > span {
-  font-size: 20px;
-  color: black;
-  font-weight: 500;
-  text-align: center;
-}
-
-.card > img {
-  width: 100px;
-  height: 70%;
-  width: auto;
-}
-
-.card > span {
+.card span {
+  height: 50px;
   font-size: 20px;
   font-weight: 500;
   text-align: center;
+}
+
+table,
+th,
+td {
+  border: 2px solid #ff006e;
+  border-collapse: collapse;
+  padding: 15px;
+}
+
+td:hover {
+  background: #ff006e;
+}
+
+.partenariats {
+  text-align: center;
+  border: 2px solid #ff006e;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.faqs {
+  border: 2px solid #ff006e;
+  padding: 15px;
+}
+
+.faqs .number {
+  display: inline;
+}
+
+.faqs .answer {
+  margin-left: 20px;
+}
+
+.pad {
+  margin: 10 10;
 }
 
 /* ===== HERO SECTION ===== */
@@ -162,6 +188,7 @@ body {
 
 .hero-text {
   flex: 1;
+  text-align: center;
 }
 
 .hero-title {
@@ -183,6 +210,7 @@ body {
 .hero-cta {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
 }
 
@@ -386,7 +414,7 @@ body {
 }
 
 .team-achievements li::before {
-  content: '▸';
+  content: "▸";
   position: absolute;
   left: 0;
   color: #00f0ff;
@@ -632,7 +660,35 @@ address {
 /* ===== RESPONSIVE DESIGN ===== */
 
 /* Tablet (≥768px) */
+
+@media (max-width: 440px) {
+  .gallery {
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .card {
+    width: calc(100% - 10px);
+
+    /* margin: 0 10px; */
+  }
+}
+
 @media (min-width: 768px) {
+  .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .card {
+    width: calc(20% - 10px);
+
+    /* margin: 0 10px; */
+  }
   .header-content {
     flex-direction: row;
     justify-content: space-between;

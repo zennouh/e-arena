@@ -11,7 +11,7 @@
     />
 
     <meta name="keyword" content="E-sprot, sport" />
-    <link rel="stylesheet" href="./style/mystyle.css" />
+    <link rel="stylesheet" href="mystyle.css" />
     <link rel="icon" type="image/x-icon" href="./assets/homeicon.png" />
 
     <title>E-Arena Championship 2025</title>
@@ -49,8 +49,10 @@
               gaming compétitif.
             </p>
             <div class="hero-cta">
-              <a href="#teams" class="btn btn-primary">Découvrir les équipes</a>
-              <a href="#contact" class="btn btn-secondary">Devenir sponsor</a>
+              <a href="teams.html" class="btn btn-primary"
+                >Découvrir les équipes</a
+              >
+              <a href="contact.html" class="btn btn-secondary">Les Contacts</a>
             </div>
           </div>
           <div class="hero-illustration">
@@ -198,26 +200,85 @@
         <h2 class="section-title">Les sponseur</h2>
         <div class="gallery">
           <div class="card">
-            <img src="./assets/sponsers/adidas.jpg" alt="adidas" />
+            <picture>
+              <source
+                srcset="./assets/sponsers/500x200/adidas-m.png"
+                media="(max-width: 440px)"
+              />
+              <img src="./assets/sponsers/555x210/adidas.png" alt="adidas" />
+            </picture>
+
             <span>Adidas</span>
           </div>
+
           <div class="card">
-            <img src="./assets/sponsers/jordan.webp" alt="jordan" />
-            <span>jordan</span>
+            <picture>
+              <source
+                media="(max-width: 440px)"
+                srcset="./assets/sponsers/500x200/coca-cola-m.png"
+              />
+              <img src="./assets/sponsers/555x210/coca-cola.png" alt="cola" />
+            </picture>
+
+            <span>Coca-cola</span>
+          </div>
+
+          <div class="card">
+            <picture>
+              <source
+                media="(max-width: 440px)"
+                srcset="./assets/sponsers/500x200/monde-m.png"
+              />
+              <img src="./assets/sponsers/555x210/monde.png" alt="Fifa" />
+            </picture>
+            <span>Fifa</span>
+          </div>
+
+          <div class="card">
+            <picture>
+              <source
+                media="(max-width: 440px)"
+                srcset="./assets/sponsers/500x200/puma-m.png"
+              />
+              <img src="./assets/sponsers/555x210/puma.png" alt="puma" />
+            </picture>
+            <span>puma</span>
+          </div>
+
+          <div class="card">
+            <picture>
+              <source
+                media="(max-width: 440px)"
+                srcset="./assets/sponsers/500x200/spotify-m.png"
+              />
+              <img src="./assets/sponsers/555x210/spotify.png" alt="spotify" />
+            </picture>
+            <span>spotify</span>
+          </div>
+        </div>
+        <!-- <div class="gallery">
+          <div class="card">
+            <img src="./assets/sponsers/adidas.png" alt="adidas" />
+            <span>Adidas</span>
+          </div>
+
+          <div class="card">
+            <img src="./assets/sponsers/coca-cola.png" alt="cola" />
+            <span>Coca-cola</span>
           </div>
           <div class="card">
-            <img src="./assets/sponsers/pepsi.jpg" alt="pepsi" />
-            <span>pepsi</span>
+            <img src="./assets/sponsers/monde.png" alt="Fifa" />
+            <span>Fifa</span>
           </div>
           <div class="card">
             <img src="./assets/sponsers/puma.png" alt="puma" />
             <span>puma</span>
           </div>
           <div class="card">
-            <img src="./assets/sponsers/spotify.webp" alt="spotify" />
+            <img src="./assets/sponsers/spotify.png" alt="spotify" />
             <span>spotify</span>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
     <!-- Footer -->
