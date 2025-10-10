@@ -113,10 +113,10 @@ Voici quelques aperçus des performance and accessibility du site :
 
 ### Équipes & Règles
 
-![screenshots\team_image.png](screenshots\team_image.png)
+![screenshots/team_image.png](screenshots/team_image.png)
 
 ### Contact
 
-![screenshots\contact_image.png](screenshots\contact_image.png)
+![screenshots/contact_image.png](screenshots/contact_image.png)
 
 </div>
