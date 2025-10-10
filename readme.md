@@ -17,7 +17,6 @@ Page d’introduction à l’événement :
 - Liens rapides vers les pages _Équipes & Règles_ et _Contact_.
 - Section _Highlights_ (dates, jeux, prize pool).
 - Galerie de logos des sponsors (Adidas, Coca-Cola, Fifa, Puma, Spotify).
-- Design responsive et décorations SVG dynamiques pour un effet futuriste.
 
 ### 2. `teams.html` – Équipes & Règles
 
@@ -46,13 +45,33 @@ Page de contact avec formulaire interactif :
 
 - **HTML5** pour la structure du contenu.
 - **CSS3** (fichier `mystyle.css`) pour la mise en forme et le responsive design.
-- **Balises sémantiques et ARIA** pour l’accessibilité.
+- **Balises sémantiques et ARIA (Accessible Rich Internet Applications)** pour l’accessibilité.
 - **Images adaptatives (`<picture>`)** pour la compatibilité mobile.
 - **SVG** pour les illustrations vectorielles légères et dynamiques.
 
 ---
 
-## 📁 Arborescence du projet
+---
+
+## 📸 Captures d'écran du site
+
+Voici quelques aperçus des pages principales du site :
+
+<div align="center">
+
+### Accueil
+
+<img src="screenshots/index_image.png" alt="Accueil" width="600" />
+
+### Équipes & Règles
+
+<img src="screenshots/team_image.png" alt="Équipes & Règles" width="600" />
+
+### Contact
+
+<img src="screenshots/contact_image.png" alt="Contact" width="600" />
+
+</div>
 
 # 🧩 Difficultés rencontrées et solutions
 
