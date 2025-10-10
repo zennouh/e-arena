@@ -80,8 +80,10 @@ Page de contact avec formulaire interactif :
 - **Solution :**  
   Il faut utiliser la balise `<picture>` avec plusieurs balises `<source>`, et placer la balise `<img>` en dernier.  
   Chaque balise `<source>` doit contenir :
+
   - `srcset` → le lien de l’image
   - `media` → la condition d’affichage (par exemple, afficher cette image si la largeur est inférieure à 444px)
+
   ```html
   <picture>
     <source srcset="small.jpg" media="(max-width: 444px)" />
@@ -89,6 +91,14 @@ Page de contact avec formulaire interactif :
     <img src="default.jpg" alt="exemple" />
   </picture>
   ```
+
+- **Référence :** [https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/picture](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/picture)
+
+### 4. Probleme du performence
+
+- **Problème :** J’ai eu des probleme en la performence des pages.
+- **Solution :**  
+  Le probleme est lie a les exetension install dans mon navigateur
   ## 📸 Captures d'écran du site
 
 Voici quelques aperçus des performance and accessibility du site :
@@ -99,7 +109,7 @@ Voici quelques aperçus des performance and accessibility du site :
 
 <!-- <img src="screenshots/index_image.png" alt="Accueil" width="600" /> -->
 
-![Alt text](screenshots/index_image.png)
+![screenshots/index_image.png](screenshots/index_image.png)
 
 ### Équipes & Règles
 
