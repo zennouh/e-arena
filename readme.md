@@ -53,26 +53,6 @@ Page de contact avec formulaire interactif :
 
 ---
 
-## 📸 Captures d'écran du site
-
-Voici quelques aperçus des pages principales du site :
-
-<div align="center">
-
-### Accueil
-
-<img src="screenshots/index_image.png" alt="Accueil" width="600" />
-
-### Équipes & Règles
-
-<img src="screenshots/team_image.png" alt="Équipes & Règles" width="600" />
-
-### Contact
-
-<img src="screenshots/contact_image.png" alt="Contact" width="600" />
-
-</div>
-
 # 🧩 Difficultés rencontrées et solutions
 
 ### 1. Compréhension de la balise Open Graph
@@ -109,3 +89,24 @@ Voici quelques aperçus des pages principales du site :
     <img src="default.jpg" alt="exemple" />
   </picture>
   ```
+  ## 📸 Captures d'écran du site
+
+Voici quelques aperçus des performance and accessibility du site :
+
+<div align="center">
+
+### Accueil
+
+<!-- <img src="screenshots/index_image.png" alt="Accueil" width="600" /> -->
+
+![Alt text](screenshots/index_image.png)
+
+### Équipes & Règles
+
+<img src="screenshots/team_image.png" alt="Équipes & Règles" width="600" />
+
+### Contact
+
+<img src="screenshots/contact_image.png" alt="Contact" width="600" />
+
+</div>
