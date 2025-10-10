@@ -96,9 +96,9 @@ Page de contact avec formulaire interactif :
 
 ### 4. Probleme du performence
 
-- **Problème :** J’ai eu des probleme en la performence des pages.
+- **Problème :** J'ai eu des probleme dans la performance des pages.
 - **Solution :**  
-  Le probleme est lie a les exetension install dans mon navigateur
+  Le probleme est lie a les extension installer dans mon navigateur
   ## 📸 Captures d'écran du site
 
 Voici quelques aperçus des performance and accessibility du site :
@@ -113,10 +113,10 @@ Voici quelques aperçus des performance and accessibility du site :
 
 ### Équipes & Règles
 
-<img src="screenshots/team_image.png" alt="Équipes & Règles" width="600" />
+![screenshots\team_image.png](screenshots\team_image.png)
 
 ### Contact
 
-<img src="screenshots/contact_image.png" alt="Contact" width="600" />
+![screenshots\contact_image.png](screenshots\contact_image.png)
 
 </div>
